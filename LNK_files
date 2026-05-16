@@ -1,0 +1,8 @@
+LNK Filename,Target Path,Volume Serial,Drive Type,Target Status,Investigative Note
+ATM_THEFTS1.ppt.lnk,E:\Business Ideas\ATM_THEFTS1.ppt,4C4BB8EF,Removable (USB),MISSING,Direct evidence of ATM theft research – target file on missing USB
+Bill_Gates.gif.lnk,F:\Pix\Bill_Gates.gif,8C5713D7,Removable (USB),MISSING,Image file on missing F: drive
+Business Ideas.lnk,E:\Business Ideas,4C4BB8EF,Removable (USB),MISSING,Folder containing fraud-related documents
+burgeringandronald.gif.lnk,H:\Super Secret Stuff\burgeringandronald.gif,Not recorded,Removable,MISSING,H: drive labeled "Super Secret Stuff" – highly suspicious
+C money plates.lnk,C:\Users\Wes Mantooth\Documents\C money plates,882823A8,Fixed,EXISTS,"'Plates' = printing plates for cheques – direct fraud evidence"
+Checks.lnk,C:\Users\Wes Mantooth\Documents\Checks,882823A8,Fixed,EXISTS,Folder containing cheque images – operational evidence
+cathelmet.jpg.lnk,E:\Secret Stuff\cathelmet.jpg,E2655E6A,Removable (USB),MISSING,Second E: volume (different serial) – multiple USB devices
