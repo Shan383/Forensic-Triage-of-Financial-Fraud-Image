@@ -1,3 +1,56 @@
 # Hidden File Discovery: HARDCORE.jpg (Alternate Data Stream)
 
 ## File Location /img_Mantooth.E01/vol_vol2/Users/Wes Mantooth/Documents/My poem.txt:HARDCORE.JPG 
+
+
+## How It Was Found
+1. Autopsy's file analysis identified a non-standard file entry
+2. The parent file `My poem.txt` contained a hidden stream
+3. Manual inspection revealed embedded JPEG data
+
+## Forensic Significance
+- **Concealment Technique:** The suspect used ADS to hide image files within seemingly innocent text documents
+- **Evasion:** Basic file system browsing would NOT reveal these images
+- **Common Use:** Hiding evidence, steganography carriers, or contraband images
+
+## Extraction Status
+- ✅ Successfully extracted from ADS
+- ✅ Recovered JPEG is viewable
+- 📁 Available in `extracted_ADS/HARDCORE_extracted.jpg`
+
+## Indicator in Autopsy
+Autopsy flagged this file due to:
+1. Unusual file path containing colon (`:`)
+2. No file extension on parent file
+3. Mismatch between declared type and detected content
+
+# Hidden File Discovery: pfah603.jpg (Alternate Data Stream)
+
+# File Location  /img_Mantooth.E01/vol_vol2/Users/Wes Mantooth/Documents/ADS/readthis.txt:pfah603.jpg
+
+
+## Suspicious Indicators
+| Indicator | Value |
+|-----------|-------|
+| Parent Folder Name | "ADS" – Literally naming the technique used |
+| File Name | pfah603.jpg (nondescript, potentially auto-generated) |
+| Parent File | readthis.txt (innocent text file) |
+
+## Forensic Significance
+The folder being explicitly named **"ADS"** indicates:
+- The suspect was aware of alternate data streams
+- The naming suggests deliberate organization of hidden files
+- Potential training or prior knowledge of anti-forensic techniques
+
+## Extraction Status
+- ✅ Successfully extracted from ADS
+- ✅ Recovered JPEG is viewable
+- 📁 Available in `extracted_ADS/pfah603_extracted.jpg`
+
+## Investigative Next Steps
+1. Run CameraShy.exe extraction tools on this JPEG
+2. Compare with HARDCORE.jpg for common characteristics
+3. Check EXIF data for camera model or timestamps
+
+## Connection to Investigation
+This hidden JPEG may contain steganographically embedded data when analyzed with CameraShy.exe extraction tools.
