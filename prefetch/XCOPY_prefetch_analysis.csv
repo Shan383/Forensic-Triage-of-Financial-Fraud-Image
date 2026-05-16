@@ -1,0 +1,8 @@
+Attribute,Value
+Prefetch File Name,XCOPY.EXE-8E0707F2.pf
+Full Path (recorded in prefetch),C:\Windows\System32\xcopy.exe (inferred)
+Run Count,15
+Last Execution Timestamp,2007-08-24 17:47:34 PKT
+File Size,16,384 bytes
+Significance,"Bulk file copying – potential data exfiltration, backup, or evidence destruction"
+Correlated Artifacts,CameraShy.exe deletion (2007-08-04) – 20 days prior
