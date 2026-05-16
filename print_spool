@@ -1,0 +1,34 @@
+================================================================================
+PRINT SPOOL ARTIFACT ANALYSIS
+================================================================================
+
+File Name: prescription.gif
+File Size: 245,760 bytes
+Location: Windows Print Spooler Directory
+Printer: Epson Stylus Photo RX420 (M)
+Printer Type: Photo-quality inkjet
+
+Extracted Metadata:
+- Document opened in: Microsoft Paint (confirmed via Paint MRU registry key)
+- Printed to: Photo printer (not standard document printer)
+- Retained in spool: Yes – document never deleted from spool
+
+Forensic Significance:
+1. Document was printed but possibly never saved to disk
+2. "Prescription" filename suggests medical forgery
+3. Printed to photo printer (quality suitable for forging prescription pads)
+4. Spool file persistence indicates either oversight or intentional retention
+
+Correlated Evidence:
+- Paint MRU shows recent image editing activity
+- Default printer configured as Epson Stylus Photo RX420
+- Subject's dental imagery usernames (incisorman420, molarman420, toothfairy)
+
+Criminal Implication:
+Prescription fraud – suspect may be printing fake prescriptions using dental office affiliation.
+
+Recommendation:
+- Reconstruct prescription.gif from spool data
+- Compare with known prescription templates
+- Subpoena pharmacy records for matching prescriptions
+================================================================================
