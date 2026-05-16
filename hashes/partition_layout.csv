@@ -1,0 +1,3 @@
+Partition Name,File System,Size (Bytes),Size (Human Readable),Offset (Bytes),Offset (Human Readable)
+vol_vol1,NTFS,104857600,100 MB,1048576,1 MB
+vol_vol2,NTFS,64000000000,59.62 GB,105906176,101 MB
